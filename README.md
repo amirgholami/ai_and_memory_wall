@@ -1,4 +1,6 @@
 
+# NLP Models
+
 |    Date    |      Model      | Token Size |   #Params   |  GFLOPs |
 |------------|-----------------|------------|-------------|---------|
 | 12/6/2017  | Transformer     |            | 65M         |         |
@@ -15,7 +17,7 @@
 
 
 
-
+# Computer Vision Models
 | Date |           Model            | Input Resolution | #Params | Top-1 | GFLOPs |
 |------|----------------------------|------------------|---------|-------|--------|
 |      | ResNet50                   | 224 x 224        | 25.56M  | 76.50 |   8.19 |
