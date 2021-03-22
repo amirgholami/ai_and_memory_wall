@@ -29,3 +29,15 @@
 |      | ResNeXt152 (64x4d)         | 224 x 224        | 107.57M | 79.50 |            43.03 |                 |
 |      | SENet154 (vd)              | 224 x 224        | 114.29M | 81.40 |            45.83 |                 |
 |      | Fix_ResNeXt101(32x48d_wsl) | 320 x 320        | 456.20M | 86.30 |           354.23 |                 |
+
+# Computer Vision Models
+| Year |           Model            | Input Resolution (Sentence length)|  Batch Size   | Params Memory    | Optimizer Memory  | Activation Memory | Total Memory |
+|------|----------------------------|-----------------------------------|---------------|------------------|-------------------|-------------------|--------------|
+| 2012 | AlexNet                    | 227 x 227                         | 128           | 0.23 GB          | 0.23 GB           | 0.71 GB           |  1.71 GB     |           
+| 2014 | VGG19                      | 224 x 224                         | 64            | 0.54 GB          | 0.54 GB           | 4.64 GB           |  5.72 GB     |
+| 2015 | ResNet152                  | 224 x 224                         | 32            | 0.22 GB          | 0.22 GB           | 5.14 GB           |  5.58 GB     |
+| 2016 | DenseNet201                | 224 x 224                         | 32            | 0.07 GB          | 0.07 GB           | 6.04 GB           |  6.18 GB     |
+| 2016 | ResNeXt101 (64x4d)         | 224 x 224                         | 32            | 0.31 GB          | 0.31 GB           | 7.34 GB           |  7.96 GB     |
+| 2017 | Transformer Big (WMT)      | 512                               | 6             | 1.02 GB          | 2.04 GB           | 11.78 GB          |  14.84 GB    |
+| 2018 | BERT Large                 | 512                               | 16            | 1.32 GB          | 2.64 GB           | 14.38 GB          |  18.34 GB    | 
+| 2019 | GPT-2                      | 2014                              | 1             | 5.86 GB          | 11.62 GB          | 8.63 GB           |  26.21 GB    |
