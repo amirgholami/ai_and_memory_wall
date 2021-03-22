@@ -20,7 +20,7 @@
 
 
 
-# Computer Vision Models
+# Memory Usage For Training Per Device
 | Date |           Model            | Input Resolution | #Params | Top-1 | Inference GFLOPs | Training PFLOPs |
 |------|----------------------------|------------------|---------|-------|------------------|-----------------|
 |      | ResNet50                   | 224 x 224        | 25.56M  | 76.50 |             8.19 |                 |
