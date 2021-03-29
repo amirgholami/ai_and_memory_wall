@@ -2,10 +2,10 @@
 
 This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8).
 
-![Block](imgs/png/ai_and_compute.png)
-![Block](imgs/png/model_size_scaling.png)
-![Block](imgs/png/gpu_memory_wall.png)
-![Block](imgs/png/hw_scaling.png)
+![Block](imgs/pngs/ai_and_compute.png)
+![Block](imgs/pngs/model_size_scaling.png)
+![Block](imgs/pngs/gpu_memory_wall.png)
+![Block](imgs/pngs/hw_scaling.png)
 
 ## NLP Models
 
