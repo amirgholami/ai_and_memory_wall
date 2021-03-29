@@ -1,5 +1,12 @@
 # Memory Usages and Computation Costs
 
+This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8).
+
+![Block](imgs/png/ai_and_compute.png)
+![Block](imgs/png/model_size_scaling.png)
+![Block](imgs/png/gpu_memory_wall.png)
+![Block](imgs/png/hw_scaling.png)
+
 ## NLP Models
 
 |    Date    |      Model      | Token Size |   #Params   | #Features | Inference GFLOPs | Training PFLOPs |
@@ -36,6 +43,7 @@
 
 
 # Memory Breakdown
+
 | Year |         Model         | Input Resolution (Sentence length) | Batch Size | Params Memory | Optimizer Memory | Activation Memory | Total Memory |
 |------|-----------------------|------------------------------------|------------|---------------|------------------|-------------------|--------------|
 | 2012 | AlexNet               | 227 x 227                          |        128 | 0.23 GB       | 0.23 GB          | 0.71 GB           | 1.71 GB      |
@@ -46,3 +54,20 @@
 | 2017 | Transformer Big (WMT) | 512                                |          6 | 1.02 GB       | 2.04 GB          | 11.78 GB          | 14.84 GB     |
 | 2018 | BERT Large            | 512                                |         16 | 1.32 GB       | 2.64 GB          | 14.38 GB          | 18.34 GB     |
 | 2019 | GPT-2                 | 2014                               |          1 | 5.86 GB       | 11.62 GB         | 8.63 GB           | 26.21 GB     |
+
+
+# Acknowledgments
+We appreciate it if you would please cite the following paper if you found the library useful for your work:
+
+```text
+Gholami A, Yao Z, Kim S, Mahoney MW, Keutzer K. AI and Memory Wall. RiseLab Medium Blog Post, University of Califonia Berkeley, 2021, March 29.
+```
+
+```text
+@article{gholami2020ai_and_memory_wall,
+  title={AI and Memory Wall},
+  author={ Gholami, Amir and Yao, Zhewei and Kim, Sehoon and Mahoney, Michael W, and Keutzer, Kurt},
+  journal={RiseLab Medium Post},
+  year={2021}
+}
+```
