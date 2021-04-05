@@ -1,13 +1,14 @@
+![Block](imgs/pngs/hw_scaling.png)
+
 # Memory Usages and Computation Costs
 
 This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8).
 
-![Block](imgs/pngs/ai_and_compute.png)
-![Block](imgs/pngs/model_size_scaling.png)
-![Block](imgs/pngs/gpu_memory_wall.png)
-![Block](imgs/pngs/hw_scaling.png)
+
 
 ## NLP Models
+The tables below reports the different metrics for NLP models, including the latest Transformer models. This includes the inpu token size, the number of parameters, the activaiton/feature size, the total inference GFLOPs, as well as the PFLOPs required to train each model. The data for Training FLOPs is calculated by using the setup reported in each paper.
+
 
 |    Date    |      Model      | Token Size |   #Params   | #Features | Inference GFLOPs | Training PFLOPs |
 |------------|-----------------|------------|-------------|-----------|------------------|-----------------|
@@ -29,6 +30,7 @@ This is a repository with the data used for the [AI and Memory Wall blogpost](ht
 
 
 ## CV Models
+The table below reports the different metrics for various SOTA vision models, including the input image resolution, the number of parameters, the total inference GFLOPs, as well as the total PFLOPs required to train each model.
 
 |    Date    |       Model       | Input Resolution | #Params | Inference GFLOPs | Training PFLOPs |
 |------------|-------------------|------------------|---------|------------------|-----------------|
@@ -43,6 +45,7 @@ This is a repository with the data used for the [AI and Memory Wall blogpost](ht
 
 
 # Memory Breakdown
+The table below report the breakdown of memory required to train different SOTA models throughout the years. These include the total memory required to store the parameters, the memory footrpint associated with the optimization algorihtm, as well as the activation/feature memory.
 
 | Year |         Model         | Input Resolution (Sentence length) | Batch Size | Params Memory | Optimizer Memory | Activation Memory | Total Memory |
 |------|-----------------------|------------------------------------|------------|---------------|------------------|-------------------|--------------|
