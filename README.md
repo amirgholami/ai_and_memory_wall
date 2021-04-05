@@ -1,5 +1,3 @@
-![Block](imgs/pngs/hw_scaling.png)
-
 # Memory Usages and Computation Costs
 
 This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8).
