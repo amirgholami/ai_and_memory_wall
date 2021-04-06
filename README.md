@@ -1,6 +1,6 @@
 # Memory Usages and Computation Costs
 
-This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8).
+This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8). We report the number of paramters, feature size, as well as the total FLOPs for inference/training for SOTA models in NLP, and CV.
 
 
 
