@@ -1,11 +1,12 @@
-# Memory Usages and Computation Costs
+# Memory Footprint and FLOPs for SOTA Models in CV/NLP/Speech
 
-This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8). We report the number of paramters, feature size, as well as the total FLOPs for inference/training for SOTA models in NLP, and CV.
-
+This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8). We report the number of paramters, feature size, as well as the total FLOPs for inference/training for SOTA models in CV, Speech Learning, and NLP. 
 
 
 ## NLP Models
-The tables below reports the different metrics for NLP models, including the latest Transformer models. This includes the inpu token size, the number of parameters, the activaiton/feature size, the total inference GFLOPs, as well as the PFLOPs required to train each model. The data for Training FLOPs is calculated by using the setup reported in each paper.
+We mostly focus on calculating the different metrics for transformer models, starting from the original BERT FLOPs for training/inference, as well as its parameters and memory footprint. We then calculate the same metrics for different BERT variations as reported in the table below.
+
+P.S: The total PFLOPs required to train each model, is calculated by using the setup reported in each paper.
 
 
 |    Date    |      Model      | Token Size |   #Params   | #Features | Inference GFLOPs | Training PFLOPs |
