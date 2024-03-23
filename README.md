@@ -68,8 +68,8 @@ Gholami A, Yao Z, Kim S, Mahoney MW, Keutzer K. AI and Memory Wall. RiseLab Medi
 ```text
 @article{gholami2020ai_and_memory_wall,
   title={AI and Memory Wall},
-  author={ Gholami, Amir and Yao, Zhewei and Kim, Sehoon and Mahoney, Michael W, and Keutzer, Kurt},
-  journal={RiseLab Medium Post},
-  year={2021}
+  author={ Gholami, Amir and Yao, Zhewei and Kim, Sehoon and Hooper, Coleman and Mahoney, Michael W, and Keutzer, Kurt},
+  journal={IEEE Micro Journal},
+  year={2024}
 }
 ```
