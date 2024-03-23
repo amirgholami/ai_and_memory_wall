@@ -1,6 +1,6 @@
 # Memory Footprint and FLOPs for SOTA Models in CV/NLP/Speech
 
-This is a repository with the data used for the [AI and Memory Wall blogpost](https://medium.com/riselab/ai-and-memory-wall-2cb4265cb0b8). We report the number of paramters, feature size, as well as the total FLOPs for inference/training for SOTA models in CV, Speech Learning, and NLP. 
+This is a repository with the data used for the [AI and Memory Wall paper](https://arxiv.org/pdf/2403.14123.pdf). We report the number of paramters, feature size, as well as the total FLOPs for inference/training for SOTA models in CV, Speech Learning, and NLP. 
 
 
 ## NLP Models
